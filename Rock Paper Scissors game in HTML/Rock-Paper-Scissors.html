@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissor</title>
+    <link rel="icon"  type="image/x" href="https://hips.hearstapps.com/hmg-prod/images/people-playing-paper-rock-scissors-royalty-free-illustration-1583269312.jpg">
+    <link rel="Stylesheet" href="Rock-Paper-Scissors.css">
+  </head>
+  <body>
+
+    <div style="justify-content: center; text-align: center;"> 
+   <h1>Rock Paper Scissors</h1>
+    <button onclick=" 
+      gamePlay('Rock')
+      ">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3RgFosO_aSd4DRcO7tS5dBfFKY7BsPOIYbQ&s" style="height: 67px;">  
+    </button>
+    
+    <button onclick="
+    gamePlay('Paper')
+    ">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXz_GSFzCfz-NhvGQ3PQXj8bAzUsjHH7cyBA&s">  
+  </button>
+
+    <button onclick="
+    gamePlay('Scissors')
+    ">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnOmV8m0xrwKpkta4EblGMmPx37e2q9twnlw&s" style="height: 67px;">  
+  </button>
+
+<p></p>
+
+    <button onclick="
+    localStorage.removeItem(scores)
+    scores = {
+      wins:0,
+      ties:0,
+      losses:0,
+    }
+
+    document.querySelector('.js_moves').innerText = `Your Move:______________  The computer move:______________`
+
+    document.querySelector('.js_results').innerText = '______________';
+
+    document.querySelector('.js_scores').innerText = `Wins: ${scores.wins} Ties: ${scores.ties} Losses: ${scores.losses}`;
+
+
+    " style="color: red; background-color: rgb(83, 78, 78);">Reset Button</button>
+
+<p></p>
+    <p class="js_moves"></p>
+
+<p></p>
+    <p class="js_results"></p>
+
+<p></p>
+      <p class="js_scores"></p>
+
+</div>
+
+
+
+    <script src="Rock-Paper-Scissors.js"></script>
+  </body>
+</html>
