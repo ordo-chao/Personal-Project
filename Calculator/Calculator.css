@@ -1,0 +1,48 @@
+div
+{
+  display: flex; 
+  justify-content: center; 
+  align-items: top;
+}
+button
+{
+  width: 80px; 
+  height: 80px; 
+  min-width: 80px;
+  color: rgb(120, 180, 220);
+}
+.flex-wrap
+{
+  display: flex; 
+  max-width: 340px; 
+  flex-wrap: wrap;
+}
+.margin-button
+{
+  margin-right: 10px;
+}
+body
+{
+  background-color: rgb(250, 250, 250);
+}
+.function-add
+{
+  background-color: rgb(255, 230, 150);
+}
+.function-minus
+{
+  background-color: rgb(255, 180, 180);
+}
+.function-multiply
+{
+  background-color: rgb(180, 220, 150);
+}
+.function-divide
+{
+  background-color: rgb(180, 150, 220);
+}
+.function-equal
+{
+  background-color: rgb(150, 150, 150);
+}
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <title>Calculator</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://cdn.ttgtmedia.com/rms/onlineimages/Math_programming_calc_figure_2_half_column_mobile.jpg"> 
+    <link rel="stylesheet" href="./Calculator.css">
+  </head>
+
+  <body>
+    <div>
+      <h1 style="margin-bottom: 20px; margin-top: 0;">Calculator</h1>
+    </div>
+
+    <div>
+     <h1 class="result-showing"></h1>
+    </div>
+
+    <div>
+      <h4 style="margin-top: 0;">1 + 1 = 2</h4>
+    </div>
+
+    <div>
+    <div class="flex-wrap">
+      <button onclick="
+        calculate('1')
+        ">1</button>
+
+      <button onclick="
+        calculate('2')
+      ">2</button>
+
+      <button onclick="
+        calculate('3')
+      " class="margin-button">3</button>
+
+      <button  onclick="
+        operation(`+`)
+      " class="function-add">+</button>
+
+      <br>
+
+      <button onclick="
+        calculate('4')
+      ">4</button>
+
+      <button  onclick="
+        calculate('5')
+      ">5</button>
+
+      <button  onclick="
+        calculate('6')
+      " class="margin-button">6</button>
+
+      <button  onclick="
+        operation(`-`)
+      " class="function-minus">-</button>
+
+      <br>
+
+      <button  onclick="
+        calculate('7')
+      ">7</button>
+
+      <button  onclick="
+        calculate('8')
+      ">8</button>
+
+      <button  onclick="
+        calculate('9')
+      " class="margin-button">9</button>
+
+      <button  onclick="
+        operation(`*`)
+      " class="function-multiply">×</button>
+
+      <br>
+
+      <button  onclick="
+        calculate('0')
+      ">0</button>
+
+      <button  onclick="
+        calculate('.')
+      ">.</button>
+
+      <button  onclick="
+      evaluation()
+      " class="margin-button , function-equals">=</button>
+
+      <button  onclick="
+        operation(`/`)
+      " class="function-divide">÷</button>
+    </div>
+  </div>
+
+  <script src="./Calculator.js"></script>
+
+  </body>
+</html>
