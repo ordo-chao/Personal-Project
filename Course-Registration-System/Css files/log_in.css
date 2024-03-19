@@ -1,0 +1,46 @@
+body
+{
+  display: flex; align-items: center; justify-content: center;
+}
+
+.div_form
+{
+  background-color: rgb(207, 205, 205);  height: 500px; width: 400px; min-width: 200px; min-height: 400px; position: fixed; top: 50px; display: flex; align-items: center; justify-content: center; border-radius: 90px;
+}
+
+.div_email
+{
+  position: absolute; bottom: 320px; left: 60px;
+}
+.input_email
+{
+  height: 20px; border-radius: 10px; border: none;
+}
+.div_password
+{
+  position: absolute; bottom: 290px; left: 120px;
+}
+.submit_button
+{
+  width: 80px; border: solid; border-width: 0.5px; border-radius: 10px; height: 30px; background-color: rgb(199, 199, 243); transition: 1.5s;
+}
+.submit_button:hover
+{
+  opacity: 0.6;
+}
+.or
+{
+  position: absolute; bottom: 210px; left: 190px;
+}
+.report_link
+{
+  position: absolute; bottom: 185px; left: 160px; transition: 1.5s;
+}
+.report_link:hover
+{
+  opacity: 0.6;
+}
+.school_logo
+{
+  width: 100px; border-color: white;
+}
