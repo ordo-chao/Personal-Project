@@ -1,0 +1,26 @@
+body
+{
+  height: 2000px; display: flex;
+}
+.side_bar
+{
+  background-color: aqua; position: fixed; left: 0px; width: 250px; bottom: 2px; top: 1px;
+}
+
+.search_div
+{
+  display: flex; justify-content: center;
+}
+
+.search_div input
+{
+  position: relative; border: none; width: 0px; transition: 2s; top: 30px; outline: 0; height: 0px;
+}
+.search_div img
+{
+  position: relative; top: 8px;
+}
+.search_div:hover input
+{
+  border-radius: 20px; border: solid; border-width: 1px; position: relative; top: 10px; left: 1px; width: 150px; border-spacing: 0px; height: 20px;
+}
