@@ -1,0 +1,277 @@
+/* body
+{
+  height: 3000px;
+} */
+#header
+{
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  left: 5px;
+  right: 5px;
+  display: flex;
+  flex-grow: inherit;
+  flex-shrink: inherit;
+  justify-content: space-between;
+  background-color: white;
+}
+#header-left
+{
+ /* background-color: blueviolet; */
+ position: relative;
+ left: 50px;
+ display: flex;
+ align-items: center;
+}
+#header-left a h1
+{
+  font-size: 45px;
+  position: relative;
+  color:  #403d3d;
+  /* bottom: 15px; */
+}
+#header-right
+{
+  /* background-color: brown; */
+  position: relative;
+  right: 0px;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+}
+a:hover
+{
+  text-decoration: underline;
+}
+/* #header-center
+{
+  width: 400px;
+} */
+.drop_down_language
+{
+  display: inline-block;
+  margin-left: 15px;
+}
+.drop_down_language button
+{
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+.languages
+{
+  display: none;
+  box-sizing:  50px 50px;
+}
+.drop_down_language:hover .languages
+{
+  display: grid;
+  position: absolute;
+  top: 45px;
+  background-color: aliceblue;
+  padding-top: 10px;
+  opacity: 0.8;
+}
+#header-right
+{
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 60px;
+}
+#header-right a
+{
+  margin-left: 30px;
+  font-size: 15px;
+  font-family:"BumbleSans", -apple-system, "San Francisco", "Helvetica Neue", Roboto, "Segoe WP", "Segoe UI", sans-serif;
+  font-weight: 500;
+}
+#menu_button
+{
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  #header-right
+  {
+    display: none;
+  }
+  #menu_button
+  {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+
+#next_move
+{
+  height: 680px; 
+  top: 70px; 
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  background-image: url(/icons/couple_image.jpg); background-repeat: no-repeat; background-size:contain;
+}
+#center_content
+{
+  margin-left: 5%;
+  background-color: transparent;
+}
+#center_content img
+{
+  margin-left: 35%;
+  margin-top: 5%;
+}
+#center_content h1
+{
+  color: yellow;
+  width: 110%;
+  font-size: 270%;
+  margin-top: 15%;
+  margin-left: 0%;
+  display: flex;
+}
+#center_content p
+{
+  margin-top: 5%;
+  margin-left: 33%;
+  font-size: 22px;
+  color: yellow;
+}
+#center_content button
+{
+  margin-top: 1%;
+  margin-left: 35%;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+#what_new
+{
+  height: 500px;
+  width: 100%;
+  background-color: rgb(240, 190, 6);
+}
+
+#div_2_content
+{
+ margin-left: 7%;
+}
+
+#div_2_content h1
+{
+  width: 33%; 
+  font-size: 400%; 
+  letter-spacing: -5.5px; 
+  word-spacing: 2px;  
+  padding: 0; 
+  margin: 0;
+}
+
+#div_2_content a
+{
+  color: rgb(255, 255, 255); 
+  background-color: black; 
+  padding: 13px; 
+  font-size: 21px; 
+  border-radius: 25px; 
+  cursor: pointer; 
+  padding-left: 20px; 
+  padding-right: 20px;
+  transition: 1.5s;
+}
+
+#div_2_content a:hover
+{
+  background-color: rgb(71, 69, 69); 
+}
+
+#what_new img
+{
+  margin-left: 55%;
+  margin-top: -120%;
+  border-radius: 20px; 
+}
+
+#div_content_3 img
+{
+  border-radius: 20px;
+}
+
+#not_just_for_dating
+{
+  background-color: white; width: 100%; height: 600px;
+}
+
+#not_just_for_dating h1
+{
+  font-size: 60px; margin-left: 8%; margin-top: 0;
+}
+
+#div_content_3
+{
+  display: flex; justify-content: space-between;
+}
+
+#make_the_first_move
+{
+  background-color: yellow; display: flex;
+}
+#make_the_first_move img
+{
+  margin-left: 8%; border-radius: 5%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+#make_the_first_move h1
+{
+  font-size: 420%; width: 78%; margin-bottom: 2%;
+}
+
+#make_the_first_move p
+{
+  font-size: 135%; width: 90%;
+  margin-bottom: 7%;
+}
+
+#make_the_first_move a
+{
+  color: white; 
+  background-color: rgb(57, 55, 55); 
+  padding: 13px; 
+  font-size: 21px; 
+  border-radius: 25px; 
+  cursor: pointer; 
+  padding-left: 20px; 
+  padding-right: 20px;
+  transition: 1.5s;
+}
+#make_the_first_move a:hover
+{
+  background-color: rgb(71, 69, 69); 
+}
+#worked_for_them
+{
+  background-color: gold;
+  padding-top: 10px;
+}
+#worked_for_them h1
+{
+  font-size: 390%; width: 65%; letter-spacing: -2%;
+  margin-left: 6%;
+  color: rgb(59, 56, 56);
+  /* padding-top: 10px; */
+}

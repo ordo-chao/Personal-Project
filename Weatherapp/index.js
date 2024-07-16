@@ -15,8 +15,8 @@ inputForm.addEventListener("submit", (event) =>
     fetch(`http://api.weatherapi.com/v1/current.json?key=26cb9ef771284e9da4f134805242405&q=${cityNameInput.value}`)
     .then(res => res.json())
     .then(data => destructureData(data))
-  })
-
+    
+  });
 
   function destructureData(data)
   {
@@ -35,5 +35,5 @@ inputForm.addEventListener("submit", (event) =>
     cityTemperature.textContent = `${temp_f} ℉`;
     cityHumidity.textContent = `Humidity: ${humidity}`;
     // WeatherIcon.innerText = Icon;
-    WeatherDescription.textContent = Description;
+    WeatherDescription.innerHTML = Description;
   }

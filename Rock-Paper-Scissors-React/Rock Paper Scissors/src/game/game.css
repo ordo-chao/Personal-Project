@@ -1,0 +1,18 @@
+body
+{
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+button
+{
+  margin: 10px;
+  padding: 7px;
+  color: white;
+  background-color: rgb(43, 40, 40);
+  transition: all 0.25s;
+}
+button:hover
+{
+  border-color: rgb(143, 51, 230);
+  box-shadow: 3px 3px rgb(153, 80, 153);
+}

@@ -1,0 +1,23 @@
+body{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.weatherDiv{
+  background-color:aqua ;
+  text-align: center;
+  width: 300px;
+}
+
+.weatherDiv input{
+  width: 80%;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.weatherDiv button{
+  height: 30px;
+  margin: 0%;
+}

@@ -4,7 +4,7 @@ body
 }
 .side_bar
 {
-  background-color: aqua; position: fixed; left: 0px; width: 250px; bottom: 2px; top: 1px;
+  background-color: #37cde6; position: fixed; left: 0px; width: 250px; bottom: 2px; top: 1px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;
 }
 
 .search_div
@@ -23,4 +23,18 @@ body
 .search_div:hover input
 {
   border-radius: 20px; border: solid; border-width: 1px; position: relative; top: 10px; left: 1px; width: 150px; border-spacing: 0px; height: 20px;
+}
+.side_bar h3
+{
+  margin: 0;
+  margin-left: 10px;
+}
+.side_bar a
+{
+  margin-top: 5px; position: relative; display: flex; cursor: pointer;
+}
+.side_bar label,
+.side_bar img
+{
+  margin-left: 10px;
 }
